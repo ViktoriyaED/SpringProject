@@ -1,8 +1,8 @@
-package com.example.MyProject2.controller;
+package com.example.SpringProject.controller;
 
-import com.example.MyProject2.exception.EmployeeNotFoundException;
-import com.example.MyProject2.repository.EmployeeRepository;
-import com.example.MyProject2.entity.Employee;
+import com.example.SpringProject.exception.EmployeeNotFoundException;
+import com.example.SpringProject.repository.EmployeeRepository;
+import com.example.SpringProject.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
