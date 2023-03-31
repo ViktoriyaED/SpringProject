@@ -8,7 +8,7 @@ mvn clean compile;
 mvn spring-boot:run;
 
 Open a web browser and go to the following URL to view the H2 console:
-http://localhost:8088/h2-console
+http://localhost:8088/h2-console, input jdbc:h2:mem:testdb into JDBC URL field
 
 Enter the following information to connect to the database:
 Driver Class: org.h2.Driver
