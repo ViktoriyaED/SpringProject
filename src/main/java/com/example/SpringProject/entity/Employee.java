@@ -13,10 +13,19 @@ public class Employee {
 
     private String name;
 
+    private String jobTitle;
+
     public Employee() {}
 
     public Employee(String name) {
         this.name = name;
+    }
+
+
+    public Employee(Long id, String name, String jobTitle) {
+        this.id = id;
+        this.name = name;
+        this.jobTitle = jobTitle;
     }
 
     public Long getId() {
@@ -29,5 +38,13 @@ public class Employee {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getJobTitle() {
+        return jobTitle;
+    }
+
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
     }
 }
