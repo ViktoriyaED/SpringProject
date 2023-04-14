@@ -31,6 +31,5 @@ class SpringProjectApplicationTests {
                 .delete()
                 .assertion(MercuryITHttpResponse::getCode).equalsTo(200)
                 .assertion(MercuryITHttpResponse::getBody).equalsTo("");
-
     }
 }
