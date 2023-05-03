@@ -13,8 +13,16 @@
 	<artifactId>SpringProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
 	<properties>
 		<java.version>17</java.version>
+		<mercuryit-version>0.1.0</mercuryit-version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -34,6 +42,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.RedRoverCommunity.MercuryIT</groupId>
+			<artifactId>mercuryit-core</artifactId>
+			<version>${mercuryit-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.RedRoverCommunity.MercuryIT</groupId>
+			<artifactId>mercuryit-http</artifactId>
+			<version>${mercuryit-version}</version>
 		</dependency>
 	</dependencies>
 
